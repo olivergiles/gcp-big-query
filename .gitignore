@@ -1,0 +1,10 @@
+*.egg-info
+.coverage
+.ipynb_checkpoints
+.DS_Store
+raw_data/
+data_with_names.csv
+**/__pycache__/
+.env
+*.bin
+.pytest_cache
