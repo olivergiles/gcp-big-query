@@ -10,7 +10,7 @@ def main():
     , answer_count
     , score
     , (LENGTH(tags) - LENGTH(REPLACE(tags, '|', '')) + 1) AS num_tags
-    FROM `bigquery-public-data.stackoverflow.stackoverflow_posts` 
+    FROM `bigquery-public-data.stackoverflow.stackoverflow_posts`
     LIMIT 10"""
     client = bigquery.Client()
     query_job = client.query(query)
