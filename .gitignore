@@ -8,3 +8,4 @@ data_with_names.csv
 .env
 *.bin
 .pytest_cache
+**.csv
